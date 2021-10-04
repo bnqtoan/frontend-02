@@ -1,0 +1,81 @@
+#id{
+    
+}
+
+.content{
+    
+}
+
+
+
+body{
+    background: #B3BAC5;
+}
+
+.text-primary{
+    color: #0052CC;
+}
+.text-italic{
+    font-style: italic;
+}
+
+#special-text{
+    font-size: 1.8rem;
+    color: red;
+    padding: 60px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+#special-text:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+}
+
+ul{
+
+}
+
+.content h3{
+    color: red;
+}
+
+[href="#"]{
+    text-decoration: none;
+    cursor: default;
+}
+a:hover{
+    color: blue;
+}
+
+.content-123 p:last-child{
+    color: red;
+}
+
+body .content-123{
+    text-decoration: none;
+}
+
+.content-123{
+    text-decoration: underline;
+}
+
+html{
+    font-size: 14px;
+}
+.demo-unit{
+    font-size: 2em;;
+}
+.font-size{
+    font-size: 40px;
+}
+.box{
+    background: #0052CC;
+    height: 100vh;
+    width: 50vw;
+}

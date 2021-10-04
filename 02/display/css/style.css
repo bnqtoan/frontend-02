@@ -1,0 +1,13 @@
+.inline{
+    display: inline;
+    height: 300px;
+}
+.inline-block{
+    
+}
+
+.block{
+    display: block;
+    height: 300px;
+    margin-bottom: 15px;
+}
