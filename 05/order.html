@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <ul class="flex gap-x-4">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">News</a>
+            </li>
+            <li class="group relative">
+                <a href="#">Services</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Service A</a></li>
+                    <li><a href="#">Service B</a></li>
+                    <li><a href="#">Service C</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="grid md:grid-cols-2 gap-4 items-center">
+            <div>
+                <img src="https://images.pexels.com/photos/9545106/pexels-photo-9545106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+            </div>
+            <div class="md:block hidden">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ad? Sed ut aliquid odio beatae, minus obcaecati iste quidem nesciunt quis enim reprehenderit facere et, doloremque esse pariatur cumque sapiente?
+            </div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4 items-center">
+            <div class="md:order-last">
+                <img class="transform transition-all hover:skew-x-3" src="https://images.pexels.com/photos/9734659/pexels-photo-9734659.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+            </div>
+            <div class="md:block hidden">
+                <hr>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ad? Sed ut aliquid odio beatae, minus obcaecati iste quidem nesciunt quis enim reprehenderit facere et, doloremque esse pariatur cumque sapiente?
+            </div>
+        </div>
+        <hr class="my-64">
+        <div class="flex lg:flex-row lg:justify-start flex-row-reverse justify-end">
+            <div class="w-32 h-32 bg-yellow-500 rounded-sm shadow-sm">1</div>
+            <div class="w-32 h-32 bg-pink-500 rounded-sm shadow-sm">2</div>
+            <div class="w-32 h-32 bg-gray-800 rounded-sm shadow-sm text-white">3</div>
+        </div>
+        <hr class="my-64">
+        <div class="flex">
+            <div class="lg:order-1 w-32 h-32 bg-yellow-500 rounded-sm shadow-sm">1</div>
+            <div class="order-first lg:order-2 w-32 h-32 bg-pink-500 rounded-sm shadow-sm">2</div>
+            <div class="lg:order-3 w-32 h-32 bg-gray-800 rounded-sm shadow-sm text-white">3</div>
+        </div>
+    </div>
+ 
+</body>
+</html>

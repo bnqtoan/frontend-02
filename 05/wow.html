@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wow</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wow animate__fadeIn h-screen">
+        Content to Reveal Here
+    </div>
+    <img class="mt-20 wow animate__bounceIn" src="https://images.pexels.com/photos/8806013/pexels-photo-8806013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        wow = new WOW(
+            {
+                boxClass:     'wow',      // default
+                animateClass: 'animate__animated', // default
+                offset:       0,          // default
+                mobile:       true,       // default
+                live:         true        // default
+            }
+        );
+        wow.init();
+    </script>
+</body>
+</html>
